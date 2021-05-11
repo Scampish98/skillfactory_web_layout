@@ -629,6 +629,14 @@
 }
 
 @media screen and (max-width: 900px) {
+    .products__lead {
+        padding-left: 0;
+    }
+
+    .products__filter {
+        padding-left: 0;
+    }
+
     .products__item {
         width: 100%;
     }
