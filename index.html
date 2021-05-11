@@ -148,9 +148,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.
             </p>
             <form class="subscribe__form" method="get">
-                <label class="subscribe__label">
-                    <input class="subscribe__input" type="email" name="email" required placeholder="Email Address...">
-                </label>
+                <input class="subscribe__input" id="subscribe__input" type="email" name="email" required placeholder="Email Address...">
                 <button class="subscribe__button" type="submit">Subscribe</button>
             </form>
         </section>
@@ -166,24 +164,18 @@
             </div>
             <div class="feedback__content">
                 <form class="feedback__form" method="get">
-                    <label class="feedback__name-label">
-                        <input class="feedback__form-field feedback__name" type="text" name="name" required placeholder="Name">
-                    </label>
-                    <label class="feedback__email-label">
-                        <input class="feedback__form-field feedback__email" type="email" name="email" required placeholder="Your Mail">
-                    </label>
-                    <label class="feedback__message-label">
-                        <textarea class="feedback__form-field feedback__message" name="message" required placeholder="Type your message"></textarea>
-                    </label>
+                    <input class="feedback__form-field feedback__name" id="feedback__name" type="text" name="name" required placeholder="Name">
+                    <input class="feedback__form-field feedback__email" id="feedback__email" type="email" name="email" required placeholder="Your Mail">
+                    <textarea class="feedback__form-field feedback__message" id="feedback__message" name="message" required placeholder="Type your message"></textarea>
                     <button class="button feedback__button" type="submit">Send message</button>
                 </form>
                 <div class="feedback__contacts contacts">
                     <h3 class="contacts__title">Contact info</h3>
-                    <address class="contacts__address">
+                    <address class="contacts__item contacts__address">
                         Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh
                     </address>
-                    <p class="contacts__email">redwan@deviserweb.com</p>
-                    <p class="contacts__phone">(+88) 017 617 46373</p>
+                    <p class="contacts__item contacts__email">redwan@deviserweb.com</p>
+                    <p class="contacts__item contacts__phone">(+88) 017 617 46373</p>
                 </div>
             </div>
         </section>
@@ -193,10 +185,10 @@
     <div class="footer__content">
         <p class="copyright">&commat;Junaed 2016</p>
         <section class="footer__socials">
-            <img src="images/socials/twitter.svg" alt="Twitter" width="33" height="33">
-            <img src="images/socials/linkedin.svg" alt="LinkedIn" width="33" height="33">
-            <img src="images/socials/google_plus.svg" alt="Google Plus" width="33" height="33">
-            <img src="images/socials/facebook.svg" alt="Facebook" width="33" height="33">
+            <a class="footer__socials-link" href=""><img src="images/socials/twitter.svg" alt="Twitter" width="33" height="33"></a>
+            <a class="footer__socials-link" href=""><img src="images/socials/linkedin.svg" alt="LinkedIn" width="33" height="33"></a>
+            <a class="footer__socials-link" href=""><img src="images/socials/google_plus.svg" alt="Google Plus" width="33" height="33"></a>
+            <a class="footer__socials-link" href=""><img src="images/socials/facebook.svg" alt="Facebook" width="33" height="33"></a>
         </section>
     </div>
 </footer>
